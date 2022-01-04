@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".homepagee">
+    <TextView
+        android:id="@+id/texte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/sous_titre_page1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/sous_titre"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="73dp"
+            android:id="@+id/image1"
+            android:src="@drawable/livre1"/>
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/image2"
+            android:src="@drawable/livre2"/>
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/image33"
+            android:src="@drawable/livre3"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="90dp"
+            android:id="@+id/image4"
+            android:src="@drawable/livre4"/>
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/image5"
+            android:src="@drawable/livre5"/>
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/image6"
+            android:src="@drawable/livre6"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="90dp"
+            android:id="@+id/image7"
+            android:src="@drawable/livre7"/>
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/image8"
+            android:src="@drawable/livre8"/>
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/image9"
+            android:src="@drawable/livre9"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="73dp"
+            android:id="@+id/image10"
+            android:src="@drawable/livre10"/>
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/image11"
+            android:src="@drawable/livre1"/>
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/image12"
+            android:src="@drawable/livre12"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="voir plus"
+        android:onClick="Voirplus"/>
+
+</LinearLayout>

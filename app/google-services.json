@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "987955194946",
+    "project_id": "mabiblio-51484",
+    "storage_bucket": "mabiblio-51484.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987955194946:android:69d92a827d8be5fe6051db",
+        "android_client_info": {
+          "package_name": "com.sarra.biblio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987955194946-efjum68oj25p3stdn1s2mbq0bqf4rit2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt3GSX61eLEyLwuLiYDG2kJ6s675UFo38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987955194946-efjum68oj25p3stdn1s2mbq0bqf4rit2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
